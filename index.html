@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors & Specificity</title>
+    <link rel="stylesheet" href="Resources\style.css" type="text/css">
+</head>
+<body>
+    <h1>CSS Selectors & Specificity</h1>
+    <div class="selectors">
+    <h2>Selectors</h2>
+        <p>2 different methods:</p>    
+            <ul>
+                <li>Ruleset</li>
+                <li>Inline</li>
+            </ul>
+        <p>Declaration = Apply a style to a selected element</p>
+        <h3>Ruleset Terms</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Term</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">Selector</td>
+                    <td>The beginning of the ruleset used to target the element that will be styled</td>
+                </tr>
+                <tr>
+                    <td class="term">Declaration Block</td>
+                    <td>The code in-between(and including) the curly braces ({}) that contains the CSS declarations</td>
+                </tr>
+                <tr>
+                    <td class="term">Property</td>
+                    <td>First part of declaration that signifies what visual characteristic of the element is to be modified</td>
+                </tr>
+                <tr>
+                    <td class="term">Value</td>
+                    <td>Second part of declaration that signifies the value of the property</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Inline terms</p>
+        <p>Linking the CSS file</p>
+            <ul>
+                <li>Link element within head of HTML file</li>
+                <li>Self-closing tag</li>
+                <li>Requires attributes: href = address, or path, to CSS file and rel = describes relationship between HTML file and CSS file because linking to CSS file, value set to 'stylesheet'.</li>
+            </ul>
+    </div>
+    <div class="specificity">
+        <h2>Specificity</h2>
+            <p>Best practice: Style elements while using lowest degree of specifiity so that if an element needs a new style, it is easy to override.</p>
+            <p>ids = most specific --> classes --> types</p>
+            <p>Adding more than one tag, class, or ID to a CSS selector increase specificity.</p>
+    </div>
+</body>
+</html>

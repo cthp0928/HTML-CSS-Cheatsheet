@@ -1,0 +1,37 @@
+*{
+    font-family:monospace;
+}
+
+h1{
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+}
+
+h2{
+    font-size:20px;
+
+}
+
+h3{
+    font-size:15px;
+    text-align:center;
+}
+
+table{
+    display: table;
+    border: 2px solid darkblue;
+    width: 900px;
+    margin: 0 auto;
+}
+
+th{
+    text-align: center;
+    font-weight: bold;
+    background-color: deepskyblue;
+}
+
+.term{
+    text-align: center;
+    font-weight: bold;
+}
